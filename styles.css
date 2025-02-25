@@ -9,7 +9,8 @@ body {
     color: white;
 }
 canvas {
-    background-color: black;
+  border: 4px solid #ff6600;
+  background-color: #feff9d;
     border: 2px solid white;
     width: 80vw;
     height: 60vh;
@@ -33,7 +34,7 @@ canvas {
 .controls button:hover {
     background-color: #666;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     canvas {
         width: 95vw;
         height: 50vh;
@@ -42,7 +43,7 @@ canvas {
         padding: 10px;
         font-size: 1rem;
     }
-}
+}  */
 
 
 /* body {
@@ -106,4 +107,4 @@ canvas {
   @media (max-width: 440px) {
     button { margin-top: 25px; }
     #up, #down { margin-left: 100%; margin-right: 100%; }
-  } */
+  }  */
