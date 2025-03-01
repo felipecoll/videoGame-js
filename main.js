@@ -13,6 +13,7 @@ let canvasSize;
 let elementsSize;
 let level = 0;
 let lives = 3;
+let coutdown1 = 3;
 
 let timeStart;
 let timePlayer;
